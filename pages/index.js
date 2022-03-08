@@ -27,7 +27,7 @@ export default function Home() {
             <h1 className={styles.title}>
               Creating
               the future
-              of <a href="/">nutrition.</a>
+              of <Link href="/">nutrition.</Link>
             </h1>
 
             <p className={styles.description}>
@@ -49,20 +49,20 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
+          <Link href="/" className={styles.card}>
             <div className={styles.avatar}></div>
             <h2>Name & Surname &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          </Link>
 
-          <a href="/" className={styles.card}>
+          <Link href="/" className={styles.card}>
           <div className={styles.avatar}></div>
             
             <h2>Name & Surname &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/"
             className={styles.card}
           >
@@ -70,9 +70,9 @@ export default function Home() {
             
             <h2>Name & Surname &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          </Link>
 
-          <a
+          <Link
             href="/"
             className={styles.card}
           >
@@ -82,8 +82,8 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className={styles.card}
           >
@@ -93,7 +93,7 @@ export default function Home() {
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </a>
+          </Link>
         </div>
       </main>
 
