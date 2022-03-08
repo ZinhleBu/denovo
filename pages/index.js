@@ -18,16 +18,16 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
+      
       <Header />
       <main className={styles.main}>
-
         <div className={styles.hero_container}>
           <div className={styles.hero_content}>
 
             <h1 className={styles.title}>
               Creating
               the future
-              of <a href="https://nextjs.org">nutrition.</a>
+              of <a href="/">nutrition.</a>
             </h1>
 
             <p className={styles.description}>
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div className={styles.headerImg}>
             <Image
-              src="/header-img.svg"
+              src="/header-img-01.svg"
               width={700}
               height={700}
 
@@ -49,13 +49,13 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="/" className={styles.card}>
             <div className={styles.avatar}></div>
             <h2>Name & Surname &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="/" className={styles.card}>
           <div className={styles.avatar}></div>
             
             <h2>Name & Surname &rarr;</h2>
@@ -63,7 +63,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="/"
             className={styles.card}
           >
             <div className={styles.avatar}></div>
@@ -73,7 +73,18 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="/"
+            className={styles.card}
+          >
+            <div className={styles.avatar}></div>
+          
+            <h2>Name & Surname &rarr;</h2>
+            <p>
+              Instantly deploy your Next.js site to a public URL with Vercel.
+            </p>
+          </a>
+          <a
+            href="/"
             className={styles.card}
           >
             <div className={styles.avatar}></div>

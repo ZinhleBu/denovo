@@ -4,7 +4,7 @@
 
 .main {
     min-height: 100vh;
-    padding: 4rem 2rem;
+    padding: 4rem 0rem;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -19,16 +19,18 @@
 }
 
 .hero_container {
-    margin: 1rem;
+    margin: 1rem 0 1rem 1rem;
     display: flex;
+    padding-left: 0rem;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: space-between;
     flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 1050px) {
     .hero_container {
+        padding-left: 2rem;
         flex-direction: row;
     }
 }
@@ -43,8 +45,11 @@
 }
 
 .headerImg {
+    position: relative;
     display: flex;
-    flex: 1;
+    right: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .footer {
@@ -168,6 +173,7 @@
 
 .grid {
     display: flex;
+    padding: 4rem 2rem;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
