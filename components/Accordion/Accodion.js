@@ -13,7 +13,6 @@ export default function Accordion(props) {
         width: "100%",
         marginBottom: "15px",
         lineHeight: "15px",
-        border: "1px solid rgba(209, 213, 219, 0.5)"
       }}
     >
       <button

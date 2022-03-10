@@ -5,7 +5,6 @@ import Header from '../components/Header/Header'
 import Form from '../components/Form/Form'
 import Link from 'next/link'
 import Accordion from '../components/Accordion/Accodion'
-import Document from '../pages/_document'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -69,7 +68,11 @@ export default function Home() {
               style={{
                 textAlign: "center"
               }}>CEO</p>
-            <Accordion title="+" content=" With a background in global trade, Jean is the guy conducting the businessey side of De Novo Dairy. When he's not working on his excel spreadsheets building his vision of using these tiny little organisms to make a big huge impact on the food system, he can be found in his natural habitat, the swimming pool." />
+            <Accordion 
+            style={{
+              fontFamily: 'Monument Extended - light'
+            }}
+              title="+" content="<p>With a background in global trade, Jean is the guy conducting the businessey side of De Novo Dairy. When he's not working on his excel spreadsheets building his vision of using these tiny little organisms to make a big huge impact on the food system, he can be found in his natural habitat, the swimming pool.</p>" />
           </div>
           <div
             className={styles.card}>
@@ -85,7 +88,11 @@ export default function Home() {
             <p style={{
               textAlign: "center"
             }}>COO</p>
-            <Accordion title="+" content=" Our resident engineer, Richard keeps De Novo Dairy's millions of micro factories running at full capacity. He's a DIY enthusiast and is probably the last man on earth that still reads a physical newspaper. He was last seen trying to instruct yeast cells on the benefits of matrix management." />
+            <Accordion 
+             style={{
+              fontFamily: 'Monument Extended - light'
+            }}
+            title="+" content="<p> Our resident engineer, Richard keeps De Novo Dairy's millions of micro factories running at full capacity. He's a DIY enthusiast and is probably the last man on earth that still reads a physical newspaper. He was last seen trying to instruct yeast cells on the benefits of matrix management.</p>" />
 
           </div>
           <div
@@ -108,7 +115,7 @@ export default function Home() {
             </p>
             <Accordion
               title="+"
-              content=" Joni is our biochemist and protein enthusiast. Favourite pastimes include cooking up milk proteins in the lab, suspending herself from climbing walls, and desperately seeking out some decent vegan pizza." />
+              content=" <p>Joni is our biochemist and protein enthusiast. Favourite pastimes include cooking up milk proteins in the lab, suspending herself from climbing walls, and desperately seeking out some decent vegan pizza.</p>" />
 
           </div>
           <div
@@ -127,7 +134,7 @@ export default function Home() {
             <p style={{
               textAlign: "center"
             }}>CSO</p>
-            <Accordion title="+" content=" Leah, our very own mad food scientist, began her food journey dabbling in plant and insect protein. She is now on a mission to turn our proteins into new and exciting products. She's often got Frankie at her side, and is best known for fueling the team with delicious vegan cheesecake." />
+            <Accordion title="+" content="<p>Leah, our very own mad food scientist, began her food journey dabbling in plant and insect protein. She is now on a mission to turn our proteins into new and exciting products. She's often got Frankie at her side, and is best known for fueling the team with delicious vegan cheesecake.</p>" />
 
           </div>
           <div
@@ -146,7 +153,7 @@ export default function Home() {
             <p style={{
               textAlign: "center"
             }}>Senior Research Scientist</p>
-            <Accordion title="+" content=" Hendrik, our molecular biologist and yeast micro-manager is working tirelessly in the lab constantly searching for new ways to manipulate tiny life forms through coffee-fueled brainstorming sessions to find the most efficient way of getting our hosts to produce the very best animal-free proteins." />
+            <Accordion title="+" content="<p>Hendrik, our molecular biologist and yeast micro-manager is working tirelessly in the lab constantly searching for new ways to manipulate tiny life forms through coffee-fueled brainstorming sessions to find the most efficient way of getting our hosts to produce the very best animal-free proteins.</p> " />
 
           </div>
           <div
