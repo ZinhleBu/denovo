@@ -205,19 +205,20 @@
     height: 200px;
     margin: 2rem 1rem;
     border-radius: 50% 50%;
+    overflow: hidden;
     background-color: aquamarine;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-    color: #F8CF61;
-    border-color: #F8CF61;
+    border-color: #31B6B3;
 }
 
 .card h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .card p {
