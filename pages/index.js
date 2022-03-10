@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header/Header'
 import Form from '../components/Form/Form'
 import Link from 'next/link'
-import Accordion from '../components/Accordion/accodion'
+import Accordion from '../components/Accordion/Accodion'
 import Document from '../pages/_document'
 export default function Home() {
   return (
