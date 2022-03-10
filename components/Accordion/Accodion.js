@@ -31,7 +31,6 @@ export default function Accordion(props) {
         type="button"
       >
         <p style={{
-              textAlign: "center"
             }}>{props.title}</p>
       </button>
       <div
