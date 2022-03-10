@@ -12,7 +12,12 @@ export default function Home() {
       <Head>
         <title>De novo - Dairy</title>
         <meta name="description" content="De Novo Dairy produces nature identical, animal free proteins for optimum human nutrition." />
-     <Document />
+        <link rel="icon" href="/favicon.ico" />
+        <link href="http://fonts.cdnfonts.com/css/monument-extended?styles=28544" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x62" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x36" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <Header />
       <main className={styles.main}>
@@ -22,25 +27,23 @@ export default function Home() {
             <h1 className={styles.title}>
               Creating
               the future
-              of <Link href="/about"><a href="/">nutrition.</a></Link>
+              of <Link href="/about">
+                <a>nutrition.</a>
+              </Link>
             </h1>
-
             <p className={styles.description}>
               De Novo Dairy produces nature identical, animal free proteins for optimum human nutrition.
-
             </p>
           </div>
           <div className={styles.headerImg}>
-          <Link href="/about">
-           <a href="">
+
             <Image
               src="/header-img-01.svg"
               width={700}
               height={700}
               alt='de novo illustration'
             />
-           </a>
-           </Link>
+
           </div>
         </div>
         <div className={styles.gridTitle}>
@@ -53,17 +56,13 @@ export default function Home() {
           <div
             className={styles.card}>
             <div className={styles.avatar}>
-            <Link href="/about">
-             <a href="">
-
               <Image
                 src="/Jean.jpeg"
                 width={300}
                 height={300}
                 alt='Jean'
               />
-             </a>
-             </Link>
+
             </div>
             <h2>Jean Louwrens </h2>
             <p
@@ -92,17 +91,13 @@ export default function Home() {
           <div
             className={styles.card}>
             <div className={styles.avatar}>
-            <Link href="/about">
-             <a href="">
-
               <Image
                 src="/Joni Symon.jpeg"
                 width={300}
                 height={300}
                 alt='Joni Symon'
               />
-             </a>
-             </Link>
+
             </div>
             <h2>Joni Symon</h2>
             <p
@@ -119,8 +114,6 @@ export default function Home() {
           <div
             className={styles.card}>
             <div className={styles.avatar}>
-            <Link href="/about">
-            <a href="">
 
               <Image
                 src="/Leah.jpeg"
@@ -128,8 +121,7 @@ export default function Home() {
                 height={300}
                 alt='JDr Leah Bessa'
               />
-            </a>
-            </Link>
+
             </div>
             <h2>Dr Leah Bessa</h2>
             <p style={{
@@ -141,16 +133,14 @@ export default function Home() {
           <div
             className={styles.card}>
             <div className={styles.avatar}>
-            <Link href="/about">
-              <a href="">
+
               <Image
                 src="/Hendrik.jpeg"
                 width={300}
                 height={300}
                 alt='Hendrik Els'
               />
-              </a>
-              </Link>
+
             </div>
             <h2>Hendrik Els</h2>
             <p style={{
@@ -162,16 +152,14 @@ export default function Home() {
           <div
             className={styles.card}>
             <div className={styles.avatar}>
-            <Link href="/about">
-              <a href="">
+
               <Image
                 src="/Frankie.jpeg"
                 width={300}
                 height={300}
                 alt='Frankie'
               />
-              </a>
-              </Link>
+
             </div>
             <h2>Frankie</h2>
             <p style={{
@@ -190,8 +178,8 @@ export default function Home() {
 
               <Link
                 href="/"
-                passHref>
-                <a href="">
+              >
+                <a>
 
                   <Image className={styles.logo} src="/Asset 1.png" alt='de novo logo' width={170} height={80} />
                 </a>
@@ -206,9 +194,9 @@ export default function Home() {
               <li>
                 <Link
                   href="/"
-                  passHref
+
                 >
-                  <a href="">
+                  <a>
 
                     <Image
                       src="/twitter.png"
@@ -222,9 +210,9 @@ export default function Home() {
               <li>
                 <Link
                   href="/"
-                  passHref
+
                 >
-                  <a href="">
+                  <a >
 
                     <Image
                       src="/instagram.png"
@@ -239,7 +227,7 @@ export default function Home() {
                 <Link
                   href="/"
                 >
-                  <a href="">
+                  <a>
                     <Image
                       src="/mail.webp"
                       width={30}

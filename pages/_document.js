@@ -5,6 +5,8 @@ export default function Document() {
   return (
     <Html>
       <Head>
+          <title>De novo - Dairy</title>
+        <meta name="description" content="De Novo Dairy produces nature identical, animal free proteins for optimum human nutrition." />
       <link rel="icon" href="/favicon.ico" />
         <link href="http://fonts.cdnfonts.com/css/monument-extended?styles=28544" rel="stylesheet" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

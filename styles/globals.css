@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Monument Extended';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monument Extended'), url('https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff') format('woff');
+}
+
 html,
 body {
     padding: 0;

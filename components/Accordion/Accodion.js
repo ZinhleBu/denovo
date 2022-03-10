@@ -34,7 +34,7 @@ export default function Accordion(props) {
             }}>{props.title}</p>
       </button>
       <div
-        style={{ display: isShowing ? "block" : "none", padding: "5px" }}
+        style={{  display: isShowing ? "block" : "none", padding: "5px" }}
         dangerouslySetInnerHTML={{
           __html: props.content
         }}
