@@ -62,7 +62,6 @@ export default function Home() {
             <h2>Jean Louwrens </h2>
             <p
               style={{
-                fontFamily:"Neue Montreal",
                 textAlign: "center"
               }}>CEO</p>
             <Accordion
