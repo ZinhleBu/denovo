@@ -44,6 +44,7 @@ export default function Home() {
         </div>
         <div className={styles.gridTitle}>
           <p style={{
+            fontSize: "3rem",
             textAlign: "center"
           }}>Meet the Team</p>
         </div>
@@ -61,11 +62,12 @@ export default function Home() {
             <h2>Jean Louwrens </h2>
             <p
               style={{
+                fontFamily:"Neue Montreal",
                 textAlign: "center"
               }}>CEO</p>
             <Accordion
               style={{
-                fontFamily: 'Monument Extended - light'
+                fontFamily: 'Neue Montreal'
               }}
               title="+" content="<p>With a background in global trade, Jean is the guy conducting the businessey side of De Novo Dairy. When he's not working on his excel spreadsheets building his vision of using these tiny little organisms to make a big huge impact on the food system, he can be found in his natural habitat, the swimming pool.</p>" />
           </div>
@@ -85,7 +87,7 @@ export default function Home() {
             }}>COO</p>
             <Accordion
               style={{
-                fontFamily: 'Monument Extended - light'
+                fontFamily: 'Neue Montreal'
               }}
               title="+" content="<p> Our resident engineer, Richard keeps De Novo Dairy's millions of micro factories running at full capacity. He's a DIY enthusiast and is probably the last man on earth that still reads a physical newspaper. He was last seen trying to instruct yeast cells on the benefits of matrix management.</p>" />
           </div>
@@ -107,6 +109,9 @@ export default function Home() {
               Head of Protein R&D
             </p>
             <Accordion
+            style={{
+              fontFamily: 'Neue Montreal'
+            }}
               title="+"
               content=" <p>Joni is our biochemist and protein enthusiast. Favourite pastimes include cooking up milk proteins in the lab, suspending herself from climbing walls, and desperately seeking out some decent vegan pizza.</p>" />
           </div>
@@ -124,7 +129,9 @@ export default function Home() {
             <p style={{
               textAlign: "center"
             }}>CSO</p>
-            <Accordion title="+" content="<p>Leah, our very own mad food scientist, began her food journey dabbling in plant and insect protein. She is now on a mission to turn our proteins into new and exciting products. She's often got Frankie at her side, and is best known for fueling the team with delicious vegan cheesecake.</p>" />
+            <Accordion style={{
+                fontFamily: 'Neue Montreal'
+              }}title="+" content="<p>Leah, our very own mad food scientist, began her food journey dabbling in plant and insect protein. She is now on a mission to turn our proteins into new and exciting products. She's often got Frankie at her side, and is best known for fueling the team with delicious vegan cheesecake.</p>" />
           </div>
           <div
             className={styles.card}>
@@ -140,7 +147,10 @@ export default function Home() {
             <p style={{
               textAlign: "center"
             }}>Senior Research Scientist</p>
-            <Accordion title="+" content="<p>Hendrik, our molecular biologist and yeast micro-manager is working tirelessly in the lab constantly searching for new ways to manipulate tiny life forms through coffee-fueled brainstorming sessions to find the most efficient way of getting our hosts to produce the very best animal-free proteins.</p> " />
+            <Accordion 
+            style={{
+              fontFamily: 'Neue Montreal'
+            }}title="+" content="<p>Hendrik, our molecular biologist and yeast micro-manager is working tirelessly in the lab constantly searching for new ways to manipulate tiny life forms through coffee-fueled brainstorming sessions to find the most efficient way of getting our hosts to produce the very best animal-free proteins.</p> " />
           </div>
           <div
             className={styles.card}>
@@ -157,7 +167,10 @@ export default function Home() {
             <p style={{
               textAlign: "center"
             }}>CoS</p>
-            <Accordion title="+" content=" <p>Our chief of staff is the pawfect employee. Key responsibilities include setting the nap time schedule and having the best haircut on the team.</p>" />
+            <Accordion 
+            style={{
+              fontFamily: 'Neue Montreal'
+            }}title="+" content=" <p>Our chief of staff is the pawfect employee. Key responsibilities include setting the nap time schedule and having the best haircut on the team.</p>" />
 
           </div>
         </div>
