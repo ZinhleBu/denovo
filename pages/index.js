@@ -35,7 +35,7 @@ export default function Home() {
           </div>
           <div className={styles.headerImg}>
             <Image
-              src="/header-img-01.svg"
+              src="/header-img3-01.png"
               width={900}
               height={900}
               alt='de novo illustration'
