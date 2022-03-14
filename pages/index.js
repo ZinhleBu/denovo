@@ -27,9 +27,7 @@ export default function Home() {
             <h1 className={styles.title}>
               Creating
               the future
-              of <Link href="/about">
-                <a>nutrition.</a>
-              </Link>
+              of nutrition.
             </h1>
             <p className={styles.description}>
               De Novo Dairy produces nature identical, animal free proteins for optimum human nutrition.
@@ -38,8 +36,8 @@ export default function Home() {
           <div className={styles.headerImg}>
             <Image
               src="/lottie2.gif"
-              width={821.75 }
-              height={751.8}
+              width={1021.75 }
+              height={951.8}
               alt='de novo illustration'
             />
           </div>
@@ -47,7 +45,7 @@ export default function Home() {
         <div className={styles.gridTitle}>
           <p style={{
             fontSize: "2rem",
-            textAlign: "center"
+            textAlign: "flex-start"
           }}>Meet the Team</p>
         </div>
         <div className={styles.grid}>
