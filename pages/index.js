@@ -5,6 +5,7 @@ import Header from '../components/Header/Header'
 import Form from '../components/Form/Form'
 import Link from 'next/link'
 import Accordion from '../components/Accordion/Accodion'
+import Document from './_document'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -17,6 +18,7 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="32x62" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x36" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
+        {/* <Document /> */}
       </Head>
       <Header />
       <main className={styles.main}>
@@ -35,16 +37,16 @@ export default function Home() {
           </div>
           <div className={styles.headerImg}>
             <Image
-              src="/header-img3-01.png"
-              width={900}
-              height={900}
+              src="/lottie2.gif"
+              width={821.75 }
+              height={751.8}
               alt='de novo illustration'
             />
           </div>
         </div>
         <div className={styles.gridTitle}>
           <p style={{
-            fontSize: "3rem",
+            fontSize: "2rem",
             textAlign: "center"
           }}>Meet the Team</p>
         </div>
@@ -179,12 +181,11 @@ export default function Home() {
         <div className={styles.footerWrapper}>
           <div className={styles.footer_content}>
             <div className={styles.footer_img}>
-
               <Link
                 href="/"
+                passHref
               >
                 <a>
-
                   <Image className={styles.logo} src="/Asset 1.png" alt='de novo logo' width={170} height={80} />
                 </a>
               </Link>
